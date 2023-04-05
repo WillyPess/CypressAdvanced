@@ -54,3 +54,9 @@ Cypress.Commands.add('gui_newIssue', issue => {
 Cypress.Commands.add('gui_staringProject', () => {
   cy.get(":nth-child(1) > .count-badge-button").click();
 })
+
+Cypress.Commands.add('gui_createLabelGUI', label => {
+  cy.get('.qa-edit-link-labels').click()
+  cy.contains(label.name).click()
+  cy.get('body').click()
+})
