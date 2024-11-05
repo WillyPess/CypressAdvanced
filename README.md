@@ -7,30 +7,31 @@ This project is a showcase of my techniques and knowledge
 
 This project uses a free web system developed by GitLab to run the tests
 
-- Uses Docker for create the enviroment
+- Uses Docker for local environment 
 - Tests using GUI and API
-- APIs using access token
 - Using and restoring session from last logins
-- Protecting sensetive data
-- Custom commands and "layers"
 - Using experimental funcionalities from cypress
 - Reading files 
 - Using commands in OS level
 
-### Pre requisites
+## Pre requisites
 
 1 - GitBash
 2 - Docker
-3 - Docker Image (GitLab Test)
-3 - Node
+3 - NodeJS
 
-#### How to install
+## How to install
 
 1. Clone the repository.
 2. Access the folder 'CypressAdvanced' 
 3. Download the GitLab docker image with the comand `docker run --publish 80:80 --publish 22:22 --hostname localhost wlsf82/gitlab-ce`
-2. Install cypress by running `npm install --save-dev cypress` in your terminal.
-3. Install required dependencies by running `npm install` in your terminal.
-5. Run `npx cypress open` to open the Cypress test runner.
-6. Configure the cypress app
+4. Install cypress by running `npm install --save-dev cypress` in your terminal.
 
+
+## Set up Docker Environment
+1. Access 'localhost' and set new password to 'root1234'
+2. Access User Settings -> Access Tokens
+3. Inform 'WillyShowcase' on Name and click on Create
+![alt text](image.png)
+3. Inform your token on `cypress.env.json` file
+4. Run the cypress app `npx cypress open`
