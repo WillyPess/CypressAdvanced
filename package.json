@@ -1,14 +1,14 @@
 {
   "name": "Willy Showcase",
   "version": "1.0.0",
-  "description": "GitLab Enviroment showcase",
+  "description": "Docker Enviroment showcase",
   "main": "cypress.config.js",
   "scripts": {
     "test": "cypress run"
   },
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
-    "cypress": "^12.0.2",
+    "cypress": "^12.17.4",
     "cypress-plugin-api": "^2.6.1"
   }
 }
