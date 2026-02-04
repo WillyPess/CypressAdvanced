@@ -1,10 +1,10 @@
 # Cypress Automation Project — GUI + API Testing
 
-This project demonstrates my skills in test automation using **Cypress with TypeScript**, covering both **GUI** and **API** scenarios. It's designed as a real-world showcase of advanced Cypress features and my ability to create structured, maintainable test suites.
+This Cypress project is an E2E and API testing strategy. Built with JavaScript, it utilizes Custom Commands and App Actions for faster execution and easier maintenance. Key highlights include optimized test cycles via cy.session, environment setup through API requests for total test isolation, and a  selector strategy using data-qa-selector. Integrated with Faker.js for dynamic data and Docker for containerization, the suite is engineered for consistent execution within any CI/CD pipeline.
 
 ---
 
-## 📌 About the Project
+## About the Project
 
 This automation suite tests a free self-hosted version of **GitLab CE**, running locally via Docker.
 
