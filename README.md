@@ -2,6 +2,8 @@
 
 This Cypress project is an E2E and API testing strategy. Built with JavaScript, it utilizes Custom Commands and App Actions for faster execution and easier maintenance. Key highlights include optimized test cycles via cy.session, environment setup through API requests for total test isolation, and a  selector strategy using data-qa-selector. Integrated with Faker.js for dynamic data and Docker for containerization, the suite is engineered for consistent execution within any CI/CD pipeline.
 
+
+
 ---
 
 ## About the Project
@@ -15,7 +17,7 @@ Key features:
 - Restores and reuses login sessions
 - Use the Custom Commands model for reutilization
 
-
+![Cypress run](cypress1.gif)
 ---
 
 ## ⚙️ Prerequisites
